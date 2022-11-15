@@ -1,0 +1,83 @@
+@font-face {
+  // font-family: 'myFirstFont';
+  // src: url(../../assets/font/Pridi/Pridi-Regular.ttf);
+  font-family: 'myFirstFont';
+  src: url(../../assets/font/prompt/Prompt-SemiBold.ttf);
+  // src: url(../../assets/font/Pridi/Pridi-Regular.ttf);
+  // src: url(../../assets/font/Srisakdi/Srisakdi-Regular.ttf);
+}
+
+ion-content , table , td , ion-card {
+  font-family: 'myFirstFont';
+}
+
+ion-content {
+  --ion-background-color:#000000;
+  // --ion-background-color:#0b1338;
+}
+
+table {
+  --bs-table-bg: #ffffff00;
+  --bs-table-accent-bg: #ffffff00;
+}
+
+thead {
+  font-size: 27px;
+}
+
+tbody {
+  font-size: 25px;
+}
+
+td {
+  padding: 0;
+}
+
+ion-col {
+  padding: 0;
+}
+
+ion-card {
+  color: white;  
+  text-align: center; 
+  width: auto; 
+  border-radius: 20px; 
+  // background-color: rgba(42, 78, 110, 0.541);
+  // background-color: rgba(0, 0, 255, 0.322);
+  background-color: rgba(91, 149, 37, 0.692);
+}
+
+img {
+  width: 40%;
+  height: 200px;
+}
+
+
+
+// #container {
+//   text-align: center;
+
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+
+// #container strong {
+//   font-size: 20px;
+//   line-height: 26px;
+// }
+
+// #container p {
+//   font-size: 16px;
+//   line-height: 22px;
+
+//   color: #8c8c8c;
+
+//   margin: 0;
+// }
+
+// #container a {
+//   text-decoration: none;
+// }
